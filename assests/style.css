@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    padding: 10px;
+    background-color:lightblue;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header h1 .nio{
+    color: burlywood;
+}
+.header div{
+    padding-top: 20px;
+    margin-right: 25px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.header div ul {
+    list-style-type: none;
+}
+.header div ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+body{
+    background-color: darkblue;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
