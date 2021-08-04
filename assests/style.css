@@ -5,10 +5,16 @@
 }
 
 .header{
-    padding: 10px;
-    background-color:lightblue;
+    padding: 20px;
+    background-color:rgb(124, 10, 230);
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    
+    
+}header h1 {
+    display: inline-block;
+    font-size: 48px;
+    
 }
 .header h1 .nio{
     color: burlywood;
@@ -28,10 +34,21 @@
     margin-left: 30px;
 }
 body{
-    background-color: darkblue;
+    background-color: lightgray;
 }
 
 a{
     color: #ffffff;
     text-decoration: none;
+}
+P {
+    color: rgb(45, 10, 80);
+    text-decoration: none;
+}
+.hero {
+    height: 100px;
+    width: 100%;
+    background-image: url("../assests/images/5640edcd19c6b7a84f52802aa7ababc4.jpg");
+    background-size: cover;
+    background-position: center;
 }
