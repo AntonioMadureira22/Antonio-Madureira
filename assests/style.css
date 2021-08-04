@@ -3,6 +3,14 @@
     padding: 0;
     margin: 0;
 }
+.container {
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 50px;
+}
+.items {
+    
+}
 
 .header{
     padding: 20px;
