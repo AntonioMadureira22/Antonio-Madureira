@@ -1,62 +1,48 @@
 *{
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
-}
-.container {
-    background-color: blueviolet;
-    padding: 10px;
-    margin: 50px;
-}
-.items {
-    
-}
-
-.header{
-    padding: 20px;
-    background-color:rgb(124, 10, 230);
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
-}header h1 {
-    display: inline-block;
-    font-size: 48px;
-    
-}
-.header h1 .nio{
-    color: burlywood;
-}
-.header div{
-    padding-top: 20px;
-    margin-right: 25px;
-    float: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
-.header div ul {
-    list-style-type: none;
-}
-.header div ul li{
-    display: inline-block;
-    margin-left: 30px;
-}
-body{
-    background-color: lightgray;
-}
-
-a{
-    color: #ffffff;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
 }
-P {
-    color: rgb(45, 10, 80);
-    text-decoration: none;
+.total-size{
+    margin: auto;
+    padding: 0 80px;
+    max-width: 1300px;
 }
-.hero {
-    height: 100px;
+/*Top of the page styling*/
+.navbar{
+    position: fixed;
     width: 100%;
-    background-image: url("../assests/images/5640edcd19c6b7a84f52802aa7ababc4.jpg");
-    background-size: cover;
-    background-position: center;
+    background-color:rgb(73, 73, 73);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar .total-size{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .MyName{
+    border: 15px solid lightblue;
+}
+.navbar .MyName a{
+    color: darkgray;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li {
+    list-style: none;
+    text-decoration: underline;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: lightblue;
+    font-size: 20px;
+    
+}
+/*bodyPage Styling*/
+.tp-tag{
+    display: flex;
+    background: url("../assests/images/5640edcd19c6b7a84f52802aa7ababc4.jpg") no-repeat center;
+    height: 25vh;
+    
 }
