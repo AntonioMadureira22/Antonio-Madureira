@@ -4,7 +4,20 @@
   box-sizing: border-box;
 }
 
+body{
+  min-height: 200vh;
+}
+
+/*Name styling*/
 .logo{
   font-weight: 300;
   padding: 10px;
+}
+
+/*Hero text */
+.curve-text{
+  font-weight: 400;
+  background: rgba(96, 120, 135, .4);
+  padding: 40px;
+  border-radius: 10px;
 }
