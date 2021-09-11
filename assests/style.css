@@ -6,8 +6,9 @@
 
 body{
   min-height: 200vh;
+  background: beige;
+  
 }
-
 /*Name styling*/
 .logo{
   font-weight: 300;
@@ -21,3 +22,15 @@ body{
   padding: 40px;
   border-radius: 10px;
 }
+
+/*Sticky Footer from Materalize*/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+   
